@@ -204,3 +204,16 @@ a {
   text-align: center;
   color: #64748b;
 }
+.logo {
+font-size: 70px;
+font-weight: bolder;
+}
+.footer nav {
+  margin-top: 10px;
+}
+.footer nav a {
+  margin: 0 10px;
+  color: #4d4dff;
+  text-decoration: none;
+
+}
