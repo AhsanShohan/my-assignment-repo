@@ -27,8 +27,12 @@ a {
 
 /* Navbar */
 .navbar {
-  background: #f5f7ff;
+  background: #f5fcff;
   padding: 20px 0;
+  background-image: url('Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar .container {
@@ -52,6 +56,15 @@ a {
 }
 
 /* Hero Section */
+.hero {
+  background-image: url('Hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px 120px;
+  text-align: center;
+}
+
 .hero-content {
   display: flex;
   flex-direction: column;
@@ -83,12 +96,6 @@ a {
   font-size: 14px;
 }
 
-.hero .image img {
-  width: 1440;
-  height: 698;
-  border-radius: 12px;
-  margin-top: 30px;
-}
 
 /* See It Section */
 
@@ -151,6 +158,9 @@ a {
   background: #e0e7ff;
   padding: 40px 0;
   text-align: center;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .stats-boxes {
