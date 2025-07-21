@@ -84,7 +84,8 @@ a {
 }
 
 .hero .image img {
-  max-width: 100%;
+  width: 1440;
+  height: 698;
   border-radius: 12px;
   margin-top: 30px;
 }
@@ -99,8 +100,9 @@ a {
 }
 
 .see-it img {
-  max-width: 300px;
-  border-radius: 10px;
+  max-width: 1140px;
+  border-radius: 20px;
+  grid-template-areas: inherit;
 }
 
 /* Stats Section */
@@ -148,7 +150,9 @@ a {
   border-radius: 10px;
   width: 250px;
   text-align: left;
+
 }
+
 
 /* Focus Section */
 .focus {
